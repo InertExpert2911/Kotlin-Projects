@@ -1,0 +1,19 @@
+// Write your code below
+/* \_/
+     (* *)
+    __)#(__
+   ( )...( )(_)
+   || |_| ||//
+>==() | | ()/
+    _(___)_
+   [-]   [-] */
+fun main() {
+  println("       _")
+  println("     (* *)")
+  println("    __)#(__")
+  println("  ( )...( )(_)")
+  println("  || |_| ||//")
+  println(" >==() | | ()/")
+  println("    _(___)_")
+  println("   [-]   [-]")
+}

@@ -12,12 +12,12 @@ fun main() {
 // Maps
 var foxiesHealthCheck = mutableMapOf <String, Any?>()
  
- // FOR IMMUTABLE COLLECTIONS - TYPE INFERENCE
+ // FOR IMMUTABLE COLLECTIONS
  //*************************************************************************************************************
  // var foxiesHealthCheck : Map<String, Any?> = mapOf()
  //*************************************************************************************************************
  
- // FOR MUTABLE COLLECTIONS - TYPE INFERENCE
+ // FOR MUTABLE COLLECTIONS
  //*************************************************************************************************************
  // var foxiesHealthCheck  = mutableMapOf <String, Any?>()
  //*************************************************************************************************************
@@ -44,7 +44,7 @@ var chimpsHaveEaten = mutableMapOf("Bonnie" to false, "Jubilee" to false, "Frodo
  timeSpent++
  responsibilitiesComplete++
  
- println("All chimps have now been fed! You've completed $responsibilitiesComplete / ${responsibilities.size} responsibilities.")
+ println("All chimps have now been fed! \n You've completed $responsibilitiesComplete / ${responsibilities.size} responsibilities.")
 
 // PLAYING A RANDOM GAME
 println("Next, ${responsibilities[1]}") // Second task
@@ -59,7 +59,7 @@ println("Next, ${responsibilities[1]}") // Second task
  timeSpent++
  responsibilitiesComplete++
 
- println("Each chimp has now played a game of $randomGame! You've completed $responsibilitiesComplete / ${responsibilities.size} responsibilities.")
+ println("Each chimp has now played a game of $randomGame! /n You've completed $responsibilitiesComplete / ${responsibilities.size} responsibilities.")
 
 // CONDUCTION A HEALTH CHECK
  println("Next, ${responsibilities[2]}") // Third task
@@ -87,4 +87,22 @@ println("Next, ${responsibilities[1]}") // Second task
    println("Responsibilities are not done and you took extra time")
  }
 
+// OPTIONAL TASKS
+ // A chimp’s average body temperature is 32.7 degrees Celsius. Anything higher than that should be notified to the vet. Add this logic to the program.
+
+ /* if(foxiesHealthCheck ["temperature"] > 32.7){
+    println("Notify the vet")
+ } 
+ */
+
+// Optimize parts of your program as you see fit. For example, how can we improve upon and avoid the repetitive use of responsibilities.size?
+
+/* sizeOfResponsibilities = responsibilities.size
+ I CAN STORE THE SIZE IN A VARIABLE AND USE IT AS NEEDED.
+*/
+
+// Add an additional responsibility to the list and adjust the project as needed.
+
+/* An additional responsibility can be to take the chimps for a walk in the forest and have them explore their surroundings.
+*/
 }

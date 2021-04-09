@@ -62,5 +62,33 @@ fun main() {
 
 // OPTIONAL CHALLENGES
 // 1. Change the values of sqChar1, sqChar2, triChar1 and triChar2 to see how they affects the look of each shape.
+
+/* Here are some example values for the output characters:
+
+val sqChar1 = "@  " 
+val sqChar2 = "&  " 
+ 
+val triChar1 = "_  "
+val triChar2 = "-  " */
+
+
 // 2. Use different conditions within the if expressions of the square shape to explore what other patterns you can generate.
+
+/* In the square code, you can change the condition of the if expression to:
+
+if (outerLoopVar == innerLoopVar || outerLoopVar + innerLoopVar == sideLen + 1)
+
+This will output an X pattern using sqChar1.*/
+
+
 // 3. In the triangle outline code, instead of using an else to output triChar1, use a continue in the if block to skip the rest of the while loop code.
+
+/* In the triangle outline code, remove the else statement and put continue at the end of the if block:
+
+if (countVar > 0 && countVar < rowVar && outerLoopVar != numRows ) {
+  print(stringVar2)
+  continue
+}
+print(stringVar1)
+
+This accomplishes the triangle outline by printing triChar2 and skipping the output of triChar1 when the condition is true. Otherwise the code will output triChar1.*/

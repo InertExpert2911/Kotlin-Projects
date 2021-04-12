@@ -106,6 +106,47 @@ fun main() {
 // ADDITIONAL CHALLENGES
 // 1. Create a function that returns the difference between the largest and smallest number in the list.
 // ANS: For the first prompt, use the logic from findMin() and findMax() to find the smallest and largest numbers. Then, return the difference between the two.
+/* 
+  // FUNC THAT RETURNS THE DIFF BW MIN AND MAX
+  
+ fun minMaxDiff(minMaxDiffList : List<Int>) : Int{
+    
+    //LARGEST
+    var largest = findMax(minMaxDiffList)
+    
+    //SMALLEST
+    var smallest = findMin(minMaxDiffList)
+
+    // DIFF
+    var difference = largest - smallest
+
+  return difference
+ } 
+ 
+ fun main() {
+ 
+ // LARGEST - SMALLEST
+  var diff = minMaxDiff(values)
+  println("The minMaxDiff is $diff")
+ }
+ 
+ */
 
 // 2. Create a function that takes in a list of numbers and returns a list with all the values squared.
 // ANS: For the second prompt, create an empty list. Then, loop through each element of the list argument; inside the loop, add the value of the element multiplied by itself.
+/* 
+ //SQUARE
+ 
+ fun squareNum(sqList : List<Int>) : List<Int> {
+  for(z in sqList){
+   // sqList[z] = z * z
+    var num = z * z
+    // sqList[0]
+    // sqList.remove()
+    sqList.add(num)
+  }
+
+  return sqList
+}
+EROORS WORK IT OUT
+*/
